@@ -1,0 +1,20 @@
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('/w3images/profile_girl.jpg');
+  min-height: 100%;
+}
+
+i {
+  font-size: 25px !important;
+  padding: 0px 8px;
+}
+
+@media screen and (max-width: 600px) {
+  .w3-jumbo {
+    font-size: 30px !important;
+  }
+}
